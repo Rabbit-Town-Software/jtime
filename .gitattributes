@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Ignore build output and generated docs
+build/** linguist-vendored
+out/** linguist-vendored
+docs/** linguist-vendored
+*.html linguist-vendored
